@@ -1,0 +1,39 @@
+{
+  "name": "@sevenoutman/use-debounced-memo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "files": [
+    "dist",
+    "*.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "debounce",
+    "memorize"
+  ],
+  "author": "Doma<leishenghao@126.com>",
+  "repository": "git@github.com:SevenOutman/use-debounced-memo.git",
+  "homepage": "https://github.com/SevenOutman/use-debounced-memo",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.6",
+    "@types/react": "^16.9.11",
+    "typescript": "^3.6.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8"
+  }
+}
